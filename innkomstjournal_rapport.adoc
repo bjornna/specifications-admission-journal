@@ -9,6 +9,7 @@ Prosjektgruppa foreslå oppsplitting av innkomstjournalen i 7 nye dokumenttyper.
 * <<innkomstjournalen,Innkomstjournal>>
 * <<sosialt, Sosialt>>
 * <<tidligere_sykdommer, Tidligere sykdommer>>
+** Krav fra helse nord er beskrevet her <<HN_F160>>
 * <<hereditet, Hereditet>>
 * <<stimulantia, Stimulantia>>
 * (Kritisk informasjon)
@@ -24,79 +25,7 @@ Sykehusene i Helse Nord, Helse Vest, Helse Sør-Øst planlegger å ta i bruk DIP
 Målsetningen for prosjektet var å levere forslag til strukturert innkomstjournal og epikrise (inkludert poliklinisk) til Nasjonal IKT sitt nasjonale arketypebibliotek og regionene sin EPJ-forvaltning. Disse forslagene, vil så kunne tas i bruk og videreutvikles gjennom spesialisering for ulike fagområder, samtidig som man beholder muligheten for å beholde fellesegenskaper som vil gjøre gjenbruk av informasjon enklere, og understøtte en fremtidig nasjonal pasientjournal.
 Da arbeidet kom i gang, ble det klart at det ville være nødvendig å bruke de tilgjengelige samlingene på det første temaet, nemlig innkomstjournal. I tillegg, er det prosjektgruppens mening at store deler av det som er arbeidet frem knyttet til innkomstjournal vil ha stort gjenbrukspotensial for en poliklinisk epikrise. Også epikrise etter innleggelse vil gjenbruke flere av disse elementene, og det er prosjektgruppens anbefaling at dette følges opp med et nytt prosjekt som har som målsetning å sette opp en mal for epikrise tilpasset den foreslåtte malen for innkomstjournal.
 
-== Deltakere i prosjektgruppen
-
-[options="header"]
-|====
-                               
-|RHF	|Samling 1	|Samling 2	|Samling 3
-|Einar Fosse	HN	|X	|X	|X
-|Anne-Berit Norman Paulsen HN
-|X	|X	|X
-|Atle Hansen	HN	
-|X	|X	|X
-|Bård Soltun HN
-|X	|X	|X
-|Olaf Antonsen HN
-|X	|X	|X
-|Anne Pauline Anderssen HN
-|X	|X	|X
-|Kristian Heldal HSØ
-|X	|X	|X
-|Hallvard Lærum HSØ	
-|x	|X	|X
-|Gustav Trygve Siqueland HSØ
-|x	|X |	
-|Martin Paulson HSØ
-|x	|X |  	
-|Elisabeth Holmboe Eggen HSØ
-|x	|X	|X
-|Bjørn Christian Hauge HSØ
-|X	|X |
-|Annette Hole Sjøborg HSØ
-|X|	X|
-|Geir Thore Berge HSØ
-|X|	X |
-|Kirsti Loe HSØ
-|x|		|X
-|Silje Ljosland Bakke NIKT
-|x	|X	|X
-|Micaela Thierly  HV
-|x	|X	|X
-|Anne Kristin Paulsen HV	
-|x	|X	|X
-|Ulf E. W. Sigurdson HSØ
-|X	|X |
-|Inger H. Bleskestad HV	
-|x	|X|	
-|Ann Iren Tellnes Moe HV
-|x	|X	|X
-|Stein Vinjar Romsvik HSØ
-|X	|X |
-|John Tore Valand NIKT
-|X	|X	|X
-|Cille Nygren HSØ
-|X	|	|
-|Tomas Nordheim Alme	DIPS
-|X	|X	|X
-|Arne Løberg Sæter	DIPS
-|X	|X	|X
-|Bjørn Næss	DIPS
-|X	|X	|X
-|Hege Stokstad Tho	DIPS
-|X	|X |
-|Nasrin Jamedari	DIPS	
-|X	|X	|
-|Jon Eikhaug	HV		
-|X	|X |
-|Lars Morgan Karlsen	HV/DIPS
-|X	|X |
-|Siv Fauchald	DIPS	
-|X	|X	|X
-|Anita Sunde	DIPS 	
-|X	|X	|X
-|====
-				
+			
 
 == Prosess
 Prosjektet har vært organisert som tre heldagssamlinger med kliniske og forvaltningsressurser fra de tre regionene som i dag benytter DIPS. I tillegg har konsulenter fra DIPS ASA som kjenner godt til bruken av DIPS EPJ/PAS i de ulike regionene deltatt. I forkant av hver samling er det sendt ut et materiale som beskriver problemstillingene som skal diskuteres.
@@ -261,6 +190,8 @@ Dersom ICD-kode eller prosedyrekoder er oppgitt, vil EPJ-system kunne benytte de
 
 Dokument:: 
 Tidligere sykdommer og prosedyrer (eng. problem list)
+
+Problemliste:: En varig og oppdaterbar liste over en hvilken som helst kombinasjon av diagnoser, problemer og prosedyrer som kan ha betydning for klinisk beslutningsstøtte og utøvelsen av helsehjelp, ved at den kan presenteres i et system for å gi et raskt overblikk over et individs sykehistorie. Se arketyper.no
 
 image::problem_list.jpg[]
  
@@ -455,3 +386,77 @@ Innkomstjournal er et episodisk dokument (nytt oppstår ved hver nye kontakt), m
 Arbeidet i prosjektgruppen har vært godt, med gode diskusjoner preget av en bred klinisk sammensetning frå indremedisin, pediatri, kirurgi og psykiatri. 
 Omfanget av prosjektet ble redusert, da arbeidet med innkomstjournal krevde tid til grundige diskusjoner. Det er derfor tilrådningen til gruppen at arbeidet videreføres høsten 2014 med utarbeidelse av standard dokumenttyper for strukturert epikrise og poliklinisk epikrise.
 Rapporten oversendes Nasjonal IKT sammen med de foreslåtte arketypene som er ferdige eller klare til oversetting. Nye arketyper vil måtte utvikles. Det er foreslått at DIPS ASA tar ansvar for å foreslå disse arketypene og at den videre utvikling og godkjennelse av disse håndteres av Nasjonal IKT.
+
+
+=== Deltakere i prosjektgruppen
+
+[cols="3,^1,^1,^1",options="header"]
+|====                          
+|RHF	|Samling 1	|Samling 2	|Samling 3
+|Einar Fosse	HN	|X	|X	|X
+|Anne-Berit Norman Paulsen HN
+|X	|X	|X
+|Atle Hansen	HN	
+|X	|X	|X
+|Bård Soltun HN
+|X	|X	|X
+|Olaf Antonsen HN
+|X	|X	|X
+|Anne Pauline Anderssen HN
+|X	|X	|X
+|Kristian Heldal HSØ
+|X	|X	|X
+|Hallvard Lærum HSØ	
+|x	|X	|X
+|Gustav Trygve Siqueland HSØ
+|x	|X |	
+|Martin Paulson HSØ
+|x	|X |  	
+|Elisabeth Holmboe Eggen HSØ
+|x	|X	|X
+|Bjørn Christian Hauge HSØ
+|X	|X |
+|Annette Hole Sjøborg HSØ
+|X|	X|
+|Geir Thore Berge HSØ
+|X|	X |
+|Kirsti Loe HSØ
+|x|		|X
+|Silje Ljosland Bakke NIKT
+|x	|X	|X
+|Micaela Thierly  HV
+|x	|X	|X
+|Anne Kristin Paulsen HV	
+|x	|X	|X
+|Ulf E. W. Sigurdson HSØ
+|X	|X |
+|Inger H. Bleskestad HV	
+|x	|X|	
+|Ann Iren Tellnes Moe HV
+|x	|X	|X
+|Stein Vinjar Romsvik HSØ
+|X	|X |
+|John Tore Valand NIKT
+|X	|X	|X
+|Cille Nygren HSØ
+|X	|	|
+|Tomas Nordheim Alme	DIPS
+|X	|X	|X
+|Arne Løberg Sæter	DIPS
+|X	|X	|X
+|Bjørn Næss	DIPS
+|X	|X	|X
+|Hege Stokstad Tho	DIPS
+|X	|X |
+|Nasrin Jamedari	DIPS	
+|X	|X	|
+|Jon Eikhaug	HV		
+|X	|X |
+|Lars Morgan Karlsen	HV/DIPS
+|X	|X |
+|Siv Fauchald	DIPS	
+|X	|X	|X
+|Anita Sunde	DIPS 	
+|X	|X	|X
+|====
+	

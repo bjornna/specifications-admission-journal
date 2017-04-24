@@ -1,8 +1,11 @@
 = Tidligere sykdommer 
 
-== Bakgrunn 
+== Krav fra kunder 
 
+[[HN_F160]]
 === Helse Nord Krav F160
+Det følgnde er utdrag fra kravene Helse Nord stilte i EPJ anbudet i 2010. 
+
 Det skal finnes en type EPJ-dokument som kan benyttes for å registrere opplysninger om tidligere sykdom som skal kunne inneholde følgende opplysninger:
 
 * Diagnosekode i henhold til ICD-10.
@@ -10,7 +13,8 @@ Det skal finnes en type EPJ-dokument som kan benyttes for å registrere opplysni
 * Verifikasjonsgrad, kode valgt fra meny (”Lite sannsynlig”, ”Muligens”, ”Stor sannsynlighet”, ”Verifisert”).
 * Dato diagnosen ble stilt. Datofelt samt mulighet for tekstlig angivelse der datoen er usikker/ukjent.
 * Kilde for diagnosen. Referanse til enhet som har stilt diagnosen (foretak, avdeling) og med mulighet for fritekst for å angi at opplysningene er usikre for eksempel fordi kilden er pasient/pårørende.
-* Lenker til dokumenter (se krav F874) som beskriver diagnosen ytterligere, for eksempel en epikrise, et innkomstnotat eller et innskannet brev fra pasienten.
+* Lenker til dokumenter (se krav F874) som beskriver diagnosen ytterligere, for eksempel en epikrise, et innkomstnotat eller et innskannet brev fra pasienten.
+** F874 - Det skal være mulig å opprette et vilkårlig antall forbindelser mellom en hvilken som helst komponent i en EPJ og en annen komponent i samme EPJ. (K3.11)
 
 [options="header", cols="1,10"]
 |====

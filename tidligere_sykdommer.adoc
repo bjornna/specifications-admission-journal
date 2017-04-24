@@ -5,11 +5,53 @@
 
 ==	Innledning
 Tidligere sykdommer er en liste over de tilstander pasienten har hatt eller har og bør listes opp med årstall/dato, diagnose, behandling og eventuelle sequele, samt oppfølging. 
+
 Det foreslås at denne informasjonen finnes i journalen som såkalt ”persistent” dokument, dvs et dokument som pasienten kun har en gyldig utgave av i journalsystemet. Ved hver nye kontakt valideres innholdet, og oppdateres ved behov, men man kan unngå at informasjonen gjengis (kopieres) på nytt for hver nye kontakt, og samtidig ha en entydig dokumentasjon, der det ikke er tvil om hva som pasientens tidligere sykdommer.
 
 Prosjektgruppa mener at denne informasjonen skal være obligatorisk og at det skal kunne registreres både som fritekst og med knytning til aktuelle kodeverk (ICD-10 for diagnoser og NCSP/NCMP for prosedyrer). Diskusjonen i gruppen avdekker en forskjell i behov knyttet til dette avsnittet i journalen. Forenklet er kirurger hovedsakelig interessert i komorbiditet, tilstander som man skal ta høyde for ved forestående kirurgi, mens man for medisinske fag er ute etter en mest mulig uttømmende liste fordi man ikke nødvendigvis vet hva som er relevant på det tidspunktet informasjonen fanges. Gruppen diskuterte muligheter for vekting og sortering av informasjonen, samt visning (komprimert vs detaljert visning). Gruppen ønsket både å kunne sortere informasjonen basert på organsystem og kronologi. Pasienten ble også fremhevet som aktør i utarbeidelse av listen over tidligere sykdommer, og det ble diskutert om det skulle finnes mulighet for å dokumentere at pasienten har validert listen. Det ble også fremhevet funksjonelle ønsker knyttet til muligheten for å navigere til dokumenter fra listen over tidligere sykdommer.
 
-== Konklusjon
+== Problemstillinger 
+
+=== Tidligere sykdommer versus liste over diagnoser 
+Som nevnt i innledningen er tidligere sykdommer både en _liste over tilstander pasienten har hatt eller har_ og den er foreslått som _et persistent dokument_. Det åpner opp for endel utfordirnger. 
+
+I Arena kan vi vise frem en liste med pasientens problemer og diagnoser. Denne kan gjerne ha sin primærkilde fra medisinsk koding. Denne lista kan vi kalle `tidligere diagnoser`. Det vil være et automatisk uttrekk som hentes ut i et skjermbilde. I tidligere versjoner av DIPS Arena hadde vi en fremstilling på dette som så ut som i figuren under. Her listes opp tidligere diagnoser med følgende felter: 
+
+image::tidligere_diagnoser_arena_2010.png[]
+
+[options="header", cols="1,3"]
+|===
+|Felt | Beskrivelse 
+|Diagnosekode | ICD10 diagnosekoden
+|Navn | ICD10 Diagnosenavnet 
+|Antall | Antall kontakter hvor diagnosen er satt som hoveddiagnose
+|===
+
+
+Det redigerte dokumenet _tidligere sykdommer_/_problemliste_ vil inneholde mye av den samme informasjonen. Det store spørsmålet er: 
+
+CAUTION: Hva skiller _tidligere sykdommer_ fra _tidligere diagnoser_ ? 
+
+=== Hvordan holde _tidligere sykdommer_ oppdatert ? 
+
+== Bjørns anbefaling om tidligere sykdommer 
+
+. Tidligere sykdommer er et sammensatt dokument; dvs. et folderdokument og i DIPS Arena betyr det et dokument med format 21. 
+
+. Hvert innslag i lista er et eget dokument; dvs. en egen COMPOSITION som inneholder ett og bare ett innslag av en problem/diagnose arketyper. 
+
+På den måten gjør vi det mulig å : 
+
+a. Oppdatere sammenstillingen automatisk gjennom kode; f.eks. et script som henter ut problem/diagnose fra eventbaserte dokumenter og referer det inn i det persistente sammensatte dokumentet. 
+a. Tidligere oppføringer til _tidligere sykdommer_ får stå med den orginale forfatteren. Det vil si at det fremkommer tydelig når oppføringen kommer inn i historikken og når det ble opprettet. 
+a. Rettinger på gamle oppføringer blir konsekvent - siden det da kun handler om å lage ny (rette) versjon av gammel oppføring. 
+a. Dersom gamle oppføringer er feilaktige og man ikke lenger vil ha de med i lista så kan man a) slette referanse og b) legge til en ny referanse. Da rydder man opp uten å rette/korrigere tidligere oppføringer. 
+
+
+
+
+
+== Anbefaling fra prosjektgrupper
 Tidligere sykdommer bygges på arketypen (composition) «Problem list». Denne har støtte for å registrere klinisk problemstilling/diagnose og prosedyrer. Problemstilling kan oppgis som fritekst med kan også knyttes til kodeverk som ICD10/NCSP etc.
 
 Bruker kan dermed enkelt opprette en liste i fritekst, på samme måte som i dag, men der relevant også koble ICD-10 koder og prosedyrekoder til hver rad i listen.
@@ -29,9 +71,9 @@ image::problem_diagnosis.png[]
 
 Procedures::
 
-Exclusion statements
+Exclusion statements:: 
 
-Absent information
+Absent information:: 
 
 == Krav fra kunder 
 

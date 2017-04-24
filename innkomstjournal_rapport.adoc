@@ -10,6 +10,7 @@ Prosjektgruppa foreslå oppsplitting av innkomstjournalen i 7 nye dokumenttyper.
 * <<sosialt, Sosialt>>
 * <<tidligere_sykdommer, Tidligere sykdommer>>
 ** Krav fra helse nord er beskrevet her <<HN_F160>>
+** <<bna_anbefaling_tidligere_sykdommer>>
 * <<hereditet, Hereditet>>
 * <<stimulantia, Stimulantia>>
 * (Kritisk informasjon)

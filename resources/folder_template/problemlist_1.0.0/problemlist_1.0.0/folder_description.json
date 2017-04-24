@@ -1,0 +1,57 @@
+{
+    "definition": {
+        "id": "problemlist",
+        "archetypeNodeId": "openEHR-EHR-FOLDER.generic_dips.v1",
+        "type": 2,
+        "items": {
+            "min": 0,
+            "max": 0,
+            "concepts": []
+        },
+        "folders": {
+            "min": 0,
+            "max": -1,
+            "definitions": [{
+                "id": "problem",
+                "type": 2,
+                "conditions": [{
+                    "condition": "documentStatus",
+                    "value": "create",
+                    "action": "expandCreateConcept"
+                }, {
+                    "condition": "documentStatus",
+                    "value": "show",
+                    "action": "expand.all"
+                }],
+                "items": {
+                    "min": 1,
+                    "max": -1,
+
+                    "concepts": [{
+                        "id": "problem_concept",
+                        "createConceptId": "Problemlist_problem",
+                        "selectConceptId": "Problemlist_problem"
+                    }]
+                }
+            }]
+        }
+    },
+    "terminologies": {
+        "nb": {
+            "problemlist":{
+                "text":"Problemliste", 
+                "description":"Problemliste eller tidligere sykdommer"
+            }, 
+            "problem": {
+                "text": "Problem", 
+                "description":"Problem/diagnose"
+            }, 
+            "problem_concept":{
+                "text":"Problem", 
+                "description": "Legg til et problem/diagnose til tidligere sykdommer"
+            }
+            
+
+        }
+    }
+}

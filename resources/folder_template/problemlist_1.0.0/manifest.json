@@ -1,0 +1,20 @@
+{
+    "manifestVersion": "1.0",
+    "name": "problemliste",
+    "version": "1.0.0",
+    "timestamp": "2017-04-24T21:50:17+01:00",
+    "creator": "bna",
+    "defaultLanguage": "nb",
+    "schemaVersion": "1.0",
+    "resources": [
+        {
+            "name": "folder-description",
+            "mimetype": "application/json",
+            "type": "source"
+        }
+    ],
+    "resourceFileset": {
+        "folder-description": "problemlist_1.0.0/folder_description.json"
+        
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "definition": {
+        "id": "admission_journal",
+        "archetypeNodeId": "openEHR-EHR-FOLDER.generic_dips.v1",
+        "type": 2,
+        "items": {
+            "min": 0,
+            "max": 0,
+            "concepts": []
+        },
+        "folders": {
+            "min": 0,
+            "max": -1,
+            "definitions": [{
+                "id": "aktuelt",
+                "type": 2,
+                "conditions": [{
+                    "condition": "documentStatus",
+                    "value": "create",
+                    "action": "expandCreateConcept"
+                }, {
+                    "condition": "documentStatus",
+                    "value": "show",
+                    "action": "expand.all"
+                }],
+                "items": {
+                    "min": 1,
+                    "max": -1,
+
+                    "concepts": [{
+                        "id": "aktuelt_concept",
+                        "createConceptId": "Innkomstjournal_aktuelt",
+                        "selectConceptId": "Innkomstjournal_aktuelt"
+                    }]
+                }
+            }, {
+                "id": "sosialt",
+                "type": 2,
+                "conditions": [],
+                "items": {
+                    "min": 0,
+                    "max": -1,
+                    "concepts": [{
+                        "id": "sosialt_concept",
+                        "createConceptId": "Innkomstjournal_sosialt",
+                        "selectConceptId": "Innkomstjournal_sosialt"
+                    }]
+                }
+
+            }, {
+                "id": "tidligere_sykdommer",
+                "type": 2,
+                "conditions": [
+
+                ],
+                "items": {
+                    "min": 0,
+                    "max": -1,
+                    "concepts": [{
+                        "id": "tidligere_sykdommer_concept",
+                        "createConceptId": "Innkomstjournal_tidligere_sykdommer",
+                        "selectConceptId": "Innkomstjournal_tidligere_sykdommer"
+                    }]
+                }
+            }, {
+                "id": "hereditet",
+                "type": 2,
+                "conditions": [
+
+                ],
+                "items": {
+                    "min": 0,
+                    "max": -1,
+                    "concepts": [{
+                        "id": "hereditet_concept",
+                        "createConceptId": "Innkomstjournal_hereditet",
+                        "selectConceptId": "Innkomstjournal_hereditet"
+                    }]
+                }
+            }, {
+                "id": "stimulantia",
+                "type": 2,
+                "conditions": [
+
+                ],
+                "items": {
+                    "min": 0,
+                    "max": -1,
+                    "concepts": [{
+                        "id": "stimulantia_concept",
+                        "createConceptId": "Innkomstjournal_stimulantia",
+                        "selectConceptId": "Innkomstjournal_stimulantia"
+                    }]
+                }
+            }, {
+                "id": "kritisk_informasjon",
+                "type": 2,
+                "conditions": [
+
+                ],
+                "items": {
+                    "min": 0,
+                    "max": -1,
+                    "concepts": [{
+                        "id": "kritisk_informasjon_concept",
+                        "createConceptId": "Innkomstjournal_kritisk_informasjon",
+                        "selectConceptId": "Innkomstjournal_kritisk_informasjon"
+                    }]
+                }
+            }, {
+                "id": "legemidler",
+                "type": 2,
+                "conditions": [
+
+                ],
+                "items": {
+                    "min": 0,
+                    "max": -1,
+                    "concepts": [{
+                        "id": "legemidler_concept",
+                        "createConceptId": "Innkomstjournal_legemidler",
+                        "selectConceptId": "Innkomstjournal_legemidler"
+                    }]
+                }
+            }]
+        }
+    },
+    "terminologies": {
+        "nb": {
+            "admission_journal": {
+                "text": "Innkomstjournal",
+                "description": "Strukturert innkomstjournal"
+            },
+            "aktuelt": {
+                "text": "Aktuelt",
+                "description": "Aktuelt"
+            },
+            "aktuelt_concept": {
+                "text": "Aktuelt",
+                "description": "Legg til aktuelt"
+            },
+            "sosialt": {
+                "text": "Sosialt",
+                "description": "Familie- og sosiale forholl"
+            },
+            "sosialt_concept": {
+                "text": "Sosialt",
+                "description": "Legg til familie og sosialt"
+            },
+            "tidligere_sykdommer": {
+                "text": "Tidligere sykdommer",
+                "description": "Tidligere sykdommer"
+            },
+            "tidligere_sykdommer_concept": {
+                "text": "Tidl.sykdommer",
+                "description": "Legge til informasjon om tidligere sykdommer"
+            },
+            "hereditet": {
+                "text": "Hereditet",
+                "description": "Informasjon om arvelige sykdommer"
+            },
+            "hereditet_concept": {
+                "text": "Hereditet",
+                "description": "Legg til informasjon om arvelige sykdommer"
+            },
+            "stimulantia": {
+                "text": "Stimulantia",
+                "description": "Informasjon om pasientens stimulantia"
+            },
+            "stimulantia_concept": {
+                "text": "Stimulantia",
+                "description": "Legg til informasjon om pasientens bruk av stimulantia"
+            },
+            "kritisk_informasjon": {
+                "text": "Kritisk informasjon",
+                "description": "Kritisk informasjon"
+            },
+            "kritisk_informasjon_concept": {
+                "text": "Kritisk informasjon",
+                "description": "Legg til informasjon om kritisk informasjon"
+            },
+            "legemidler": {
+                "text": "Legemidler",
+                "description": "Legemidler"
+            },
+            "legemidler_concept": {
+                "text": "Legemidler",
+                "description": "Legg til informasjon om legemidler"
+            }
+
+        }
+    }
+}

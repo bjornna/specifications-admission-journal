@@ -174,37 +174,7 @@ Gruppen diskuterte nødvendigheten av å strukturere død, dødsårsak osv hos s
 Dokument:: Hereditet
 Arketyper:: Kommer
 	
-[[tidligere_sykdommer]]
-===	Tidligere sykdommer
-Tidligere sykdommer er en liste over de tilstander pasienten har hatt eller har og bør listes opp med årstall/dato, diagnose, behandling og eventuelle sequele, samt oppfølging. 
-Det foreslås at denne informasjonen finnes i journalen som såkalt ”persistent” dokument, dvs et dokument som pasienten kun har en gyldig utgave av i journalsystemet. Ved hver nye kontakt valideres innholdet, og oppdateres ved behov, men man kan unngå at informasjonen gjengis (kopieres) på nytt for hver nye kontakt, og samtidig ha en entydig dokumentasjon, der det ikke er tvil om hva som pasientens tidligere sykdommer.
 
-Gruppen mener at informasjonen dette feltet skal være obligatorisk og at det skal kunne registreres både som fritekst og med knytning til aktuelle kodeverk (ICD-10 for diagnoser og NCSP/NCMP for prosedyrer). Diskusjonen i gruppen avdekker en forskjell i behov knyttet til dette avsnittet i journalen. Forenklet er kirurger hovedsakelig interessert i komorbiditet, tilstander som man skal ta høyde for ved forestående kirurgi, mens man for medisinske fag er ute etter en mest mulig uttømmende liste fordi man ikke nødvendigvis vet hva som er relevant på det tidspunktet informasjonen fanges. Gruppen diskuterte muligheter for vekting og sortering av informasjonen, samt visning (komprimert vs detaljert visning). Gruppen ønsket både å kunne sortere informasjonen basert på organsystem og kronologi. Pasienten ble også fremhevet som aktør i utarbeidelse av listen over tidligere sykdommer, og det ble diskutert om det skulle finnes mulighet for å dokumentere at pasienten har validert listen. Det ble også fremhevet funksjonelle ønsker knyttet til muligheten for å navigere til dokumenter fra listen over tidligere sykdommer.
-
-==== Konklusjon:
-Tidligere sykdommer bygges på arketypen (composition) «Problem list». Denne har støtte for å registrere klinisk problemstilling/diagnose og prosedyrer. Problemstilling kan oppgis som fritekst med kan også knyttes til kodeverk som ICD10/NCSP etc.
-
-Bruker kan dermed enkelt opprette en liste i fritekst, på samme måte som i dag, men der relevant også koble ICD-10 koder og prosedyrekoder til hver rad i listen.
-
-Dersom ICD-kode eller prosedyrekoder er oppgitt, vil EPJ-system kunne benytte dette som nøkkel til å presentere dokumenter med relasjon til koden (for eksempel epikriser fra tidligere opphold) slik at bruker kan «drille ned» i mer informasjon.
-
-Dokument:: 
-Tidligere sykdommer og prosedyrer (eng. problem list)
-
-Problemliste:: En varig og oppdaterbar liste over en hvilken som helst kombinasjon av diagnoser, problemer og prosedyrer som kan ha betydning for klinisk beslutningsstøtte og utøvelsen av helsehjelp, ved at den kan presenteres i et system for å gi et raskt overblikk over et individs sykehistorie. Se arketyper.no
-
-image::problem_list.jpg[]
- 
-Arketyper::
-Problem/Diagnosis
- 
-image::problem_diagnosis.jpg[]
-
-Procedures::
-
-Exclusion statements
-
-Absent information
 
 === Aktuelt
 I dette avsnittet redegjøres det i detalj for pasientens aktuelle symptomer og eventuelle undersøkelser og behandling gitt av innleggende instans.

@@ -1,4 +1,5 @@
 :imagesdir: images
+
 [[tidligere_sykdommer]]
 = Tidligere sykdommer 
 

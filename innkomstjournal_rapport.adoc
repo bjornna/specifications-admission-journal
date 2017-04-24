@@ -1,0 +1,457 @@
+:imagesdir: images
+= Innkomstjournal 
+
+== Bakgrunn 
+Det følgende er omskrivning av rapport fra arbeidsgruppen "Strukturert journal" sitt "Forslag til strukturert innkomstjournal". Den er datert 10.juli 2014. Forfatter var Tomas Alme og deltakelse i prosjektgruppen er angitt under. 
+
+Prosjektgruppa foreslå oppsplitting av innkomstjournalen i 7 nye dokumenttyper. To av disse, kritisk informasjon og legemidler i bruk er holdt utenfor dette prosjektet fordi det pågår egne prosesser for disse. De fem resterende dokumenttypene er
+
+* <<innkomstjournalen,Innkomstjournal>>
+* <<sosialt, Sosialt>>
+* <<tidligere_sykdommer, Tidligere sykdommer>>
+* <<hereditet, Hereditet>>
+* <<stimulantia, Stimulantia>>
+* (Kritisk informasjon)
+* (Legemidler)
+
+Innkomstjournal er et episodisk dokument (nytt oppstår ved hver nye kontakt), mens de fire siste er persistente, dvs pasienten har kun én gyldig versjon til enhver tid. Disse kan valideres/redigeres ved nye kontakter, og på den måten forenkle legens registreringsarbeid og sikre konsistens i journalen.
+
+
+== Innledning
+Sykehusene i Helse Nord, Helse Vest, Helse Sør-Øst planlegger å ta i bruk DIPS Arena og strukturert journal. Strukturert journal sees som et virkemiddel for å oppnå bedre og enklere dokumentasjon, med bedre muligheter for å gjenbruke informasjon i ulike sammenhenger og unngå dobbeltarbeid i forbindelse med dokumentasjon og rapportering. For å oppnå strukturert journal, er alle regionene avhengige av å definere nødvendige maler og kliniske begreper. Dersom dette arbeidet skjer på tvers av regioner, vil regionene få mulighet for å utveksle strukturert informasjon mellom sykehus i ulike regioner. Det sees derfor som en stor fordel at struktureringsarbeid skjer som et samarbeid mellom helseregionene. Alle de tre regionene er i oppstartsfasen av prosjekter som skal planlegge utvikling og innføring av strukturert journal. For å sørge for en god start på disse prosjektene, har DIPS ASA tilbudt seg å fasilitere arbeidet med strukturering i den innledende fasen, for å sikre at arbeidet kommer raskt i gang og for å understøtte felles retning i arbeidet i de tre regionene. Resultatet av dette arbeidet oversendes til Nasjonal IKT og gjøres på den måten tilgjengelig for alle interesserte aktører. Dette dokumentet er prosjektrapport for det interregionale prosjektet for strukturert journal. 
+
+== Mål og mandat for prosjektet
+Målsetningen for prosjektet var å levere forslag til strukturert innkomstjournal og epikrise (inkludert poliklinisk) til Nasjonal IKT sitt nasjonale arketypebibliotek og regionene sin EPJ-forvaltning. Disse forslagene, vil så kunne tas i bruk og videreutvikles gjennom spesialisering for ulike fagområder, samtidig som man beholder muligheten for å beholde fellesegenskaper som vil gjøre gjenbruk av informasjon enklere, og understøtte en fremtidig nasjonal pasientjournal.
+Da arbeidet kom i gang, ble det klart at det ville være nødvendig å bruke de tilgjengelige samlingene på det første temaet, nemlig innkomstjournal. I tillegg, er det prosjektgruppens mening at store deler av det som er arbeidet frem knyttet til innkomstjournal vil ha stort gjenbrukspotensial for en poliklinisk epikrise. Også epikrise etter innleggelse vil gjenbruke flere av disse elementene, og det er prosjektgruppens anbefaling at dette følges opp med et nytt prosjekt som har som målsetning å sette opp en mal for epikrise tilpasset den foreslåtte malen for innkomstjournal.
+
+== Deltakere i prosjektgruppen
+
+[options="header"]
+|====
+                               
+|RHF	|Samling 1	|Samling 2	|Samling 3
+|Einar Fosse	HN	|X	|X	|X
+|Anne-Berit Norman Paulsen HN
+|X	|X	|X
+|Atle Hansen	HN	
+|X	|X	|X
+|Bård Soltun HN
+|X	|X	|X
+|Olaf Antonsen HN
+|X	|X	|X
+|Anne Pauline Anderssen HN
+|X	|X	|X
+|Kristian Heldal HSØ
+|X	|X	|X
+|Hallvard Lærum HSØ	
+|x	|X	|X
+|Gustav Trygve Siqueland HSØ
+|x	|X |	
+|Martin Paulson HSØ
+|x	|X |  	
+|Elisabeth Holmboe Eggen HSØ
+|x	|X	|X
+|Bjørn Christian Hauge HSØ
+|X	|X |
+|Annette Hole Sjøborg HSØ
+|X|	X|
+|Geir Thore Berge HSØ
+|X|	X |
+|Kirsti Loe HSØ
+|x|		|X
+|Silje Ljosland Bakke NIKT
+|x	|X	|X
+|Micaela Thierly  HV
+|x	|X	|X
+|Anne Kristin Paulsen HV	
+|x	|X	|X
+|Ulf E. W. Sigurdson HSØ
+|X	|X |
+|Inger H. Bleskestad HV	
+|x	|X|	
+|Ann Iren Tellnes Moe HV
+|x	|X	|X
+|Stein Vinjar Romsvik HSØ
+|X	|X |
+|John Tore Valand NIKT
+|X	|X	|X
+|Cille Nygren HSØ
+|X	|	|
+|Tomas Nordheim Alme	DIPS
+|X	|X	|X
+|Arne Løberg Sæter	DIPS
+|X	|X	|X
+|Bjørn Næss	DIPS
+|X	|X	|X
+|Hege Stokstad Tho	DIPS
+|X	|X |
+|Nasrin Jamedari	DIPS	
+|X	|X	|
+|Jon Eikhaug	HV		
+|X	|X |
+|Lars Morgan Karlsen	HV/DIPS
+|X	|X |
+|Siv Fauchald	DIPS	
+|X	|X	|X
+|Anita Sunde	DIPS 	
+|X	|X	|X
+|====
+				
+
+== Prosess
+Prosjektet har vært organisert som tre heldagssamlinger med kliniske og forvaltningsressurser fra de tre regionene som i dag benytter DIPS. I tillegg har konsulenter fra DIPS ASA som kjenner godt til bruken av DIPS EPJ/PAS i de ulike regionene deltatt. I forkant av hver samling er det sendt ut et materiale som beskriver problemstillingene som skal diskuteres.
+
+Samlingene er gjennomført som en blanding av plenumsdiskusjoner og arbeid i mindre grupper. Rapporten er utarbeidet av Tomas Nordheim Alme og gjennomgått av prosjektdeltakerne som har kommet med innspill og korrigeringer.
+
+== Begrepsforklaringer
+=== Hva er strukturert journal?
+
+Med strukturert journal menes i denne sammenheng muligheten til å bruke standardiserte begreper og termer i pasientens journal. Slik semantisk og strukturell standardisering er en forutsetning for en problemorientert, dynamisk journal med tidslinjefunksjon, klinisk prosess- og beslutningsstøtte, samt forenklet rapportering til interne og eksterne kvalitetsregistre og forskningsdatabaser.  En strukturert journal vil dessuten kunne forenkle og forbedre elektronisk samhandling på tvers av nivå i helsetjenesten. Det vil også gi pasienter en mer meningsfull tilgang til egen journal for pasienter.
+
+=== Hva er klinisk prosess- og beslutningstøtte?
+Med klinisk prosess-støtte menes systemunderstøttet planlegging og dokumentasjon av pasientforløp basert på klinisk problemstilling. Helsepersonell skal enkelt kunne definere en utrednings- og behandlingsplan basert på tilgjengelige maler, tilpasse denne etter pasientens behov og visualisere den langs en tidslinje. Systemet skal varsle om aktiviteter som er planlagt, men ikke utført etter en gitt tid, og også foreslå nye planelementer basert på allerede utførte steg. Klinisk beslutningsstøtte grenser tett opp til prosess-støtte, men har større fokus på å støtte helsepersonell i valg mellom ulike behandlingsforslag, basert på tilgjengelig best evidence og systematisert informasjon fra journalen. Beslutningsstøtte benyttes også som begrep om funksjonalitet som fremhever viktig informasjon i pasientens journal ut fra gitte regler, for eksempel en regel som evaluerer vitalparametre og sentrale blodprøver og varsler ved negativ utvikling eller advarer mot valg av gitte legemiddel for eksempel gitt pasientens nyrefunksjon, alder og co-morbiditet.
+
+=== Arketyper
+I OpenEHR-standarden er en arketype betegnelsen på en klinisk modell eller begrep. I tillegg til å være en rent semantisk definisjon (begrepet blodtrykk er ikke det samme som begrepet puls), inneholder det også klinisk kunnskap. Arketypen blodtrykk inneholder informasjon om hvordan blodtrykk måles, angis, hvilke enheter det måles i osv. En arketype er således mer enn et fragment av et skjema og har en naturlig avgrensning som sammenfaller med det kliniske begrepet den beskriver. 
+
+Eks. 1:: Puls, blodtrykk, temperatur og respirasjonsfrekvens er fire ulike medisinske begreper som kan beskrives som fire arketyper. Selv om det er teknisk mulig å slå disse sammen i én arketype, for eksempel kalt Vitalparametre (fordi vi ofte registrerer de samtidig), er dette ikke riktig modellering, da det er fire ulike og uavhengige kliniske konsepter. 
+
+Eks. 2:: En klinisk modell kan bygge på andre modeller. Eksempel på det kan være BMI som bygger på begrepene høyde og vekt. Arketypen BMI inneholder kunnskapen om hvordan BMI kalkuleres på basis av de to andre begrepene.
+
+Det finnes ulike typer arketyper. I denne sammenheng fokuserer vi på arketyper av typen ENTRY (med underklassene OBSERVATION, EVALUATION, INSTRUCTION OG ACTION) og COMPOSITION. Enkeltbegreper defineres som ENTRY-arketyper, som så kan settes sammen til skjema ved bruk av en COMPOSITION-arketype. 
+
+=== Templater
+I OpenEHR-standarden er en template betegnelsen på en visningsdefinisjon av en arketype. Vi setter sammen et skjema med et maksimumsdatasett i form av en COMPOSITION som er satt sammen av en eller flere ENTRY- arketyper. Templater benyttes for å bestemme hvor mye av de underliggende arketypene som skal vises for brukere i ulike situasjoner. Mens arketyper bør være standardisert så mye som mulig (for eksempel at alle i Norge benytter de samme arketypene for vanlige kliniske begreper), kan templater tilpasses lokalt uten at dette påvirker muligheten til å trekke ut og sammenstille informasjon mellom sykehus. Templater benyttes dermed til å tilpasse skjema for ulike fagområder som har ulikt detaljeringsbehov. 
+
+[[innkomstjournalen]]
+== Innkomstjournalen
+Innkomstjournalen er et standardisert dokument som med noen forskjellige variasjoner benyttes som dokumentasjon ved alle innleggelser i sykehus. 
+
+Det at dokumentet allerede har en standardisert form, gjør det enklere og mer relevant å strukturere det. En god strukturering av innholdet i dette dokumentet er dessuten et viktig utgangspunkt for å kunne gjenbruke informasjon i ulike sammenhenger. Det er også viktig for å kunne tilby klinisk prosess-støtte at det ligger en solid, strukturert registrering i begynnelsen av innleggelsen.
+
+Ulike fagområder har ulike behov til innkomstjournalen, resulterende i ulik praksis. Det vil også være forskjeller i innkomstjournal skrevet av en turnuslege eller enn medisinstudent sammenlignet med en erfaren overlege. En målsetning med strukturering av innkomstjournal kan være å sikre at journalen er oppdatert med sann, kvalitetssikret informasjon, for å skape et best mulig utgangspunkt for videre utredning og behandling, med en ambisjon om at like pasienter skal ha lik struktur i innkomstjournal, uavhengig av hvilken lege som har skrevet den.
+
+I arbeidet med Innkomstjournalen har prosjektgruppen tatt utgangspunkt i et standard oppsett for innkomstjournaler.
+
+Innkomstjournalen har en form som har vært relativt konstant i lang tid, og representerer i sin oppbygning det tankesett som medisinske studenter allerede tidlig i studiet lærer å organisere kliniske forståelse etter. Samtidig har det skjedd en svær utvikling i hvordan pasientflyt ved sykehus organiseres, og det er i dag til dels stort overlapp mellom informasjon som samles i innkomstjournalen og den informasjonen som samles i sykepleieres dokumentasjon, triagevurderinger, midlertidige innkomstjournaler (på papir) osv.
+
+Mer enn å fokusere på hvordan det historiske dokumentet Innkomstjournal skal overføres til en strukturert form, mener gruppen derfor det er aktuelt å se på hvilken informasjon vi trenger å få samlet knyttet til en pasient. Spesielt ser gruppen følgende generelle fenomener:
+
+* De fleste akuttmottak har innført eller planlegger å innføre triage i akuttmottaket, utført av en lege og en sykepleier som ikke nødvendigvis er de same som de som tar «innkomstjournal» i klassisk forstand på pasienten. Denne vurderingen må dokumenteres og vil inneholde endel elementer som overlapper med innkomstjournalen. Det vil være hensiktsmessig at disse kun registreres én gang (med mindre de endrer seg i akuttmottaket)
+* En del informasjon om pasienten er å regne som bakgrunnsinformasjon som egentlig bare skal oppdateres/valideres ved hver innleggelse. Denne informasjonen skal det til enhver tid bare finnes én gyldig versjon av, for eksempel liste over tidligere sykdommer, sosiale forhold, hereditet osv. Disse opplysningene gjennomgår ofte også en raffinering i løpet av et opphold. I dag er det problematisk at den minst raffinerte førsteversjonen er den som er enklest å finne tilbake til ved neste innleggelse. For eksempel vil legen som behandler en pasient under en innleggelse kunne få frem informasjon om hereditet som er mer detaljert og kvalitetssikret enn det som er mulig i akuttmottaket. Målsetningen er at journalsystemet til enhver tid skal inneholde den beste informasjonskvaliteten vi har lett tilgjengelig. Det følger av dette at enkelte informasjonselement kan være obligatorisk for et opphold, men ikke nødvendigvis for innkomstjournalen.
+* Som en følge av dette foreslår gruppen at det som i dag utgjøres av ett dokument, innkomstjournalen, deles opp i syv ulike dokumenter, nemlig Tidligere sykdommer, Sosialt, Hereditet, Stimulantia, Kritisk informasjon, Legemidler i bruk og Innkomstjournal. Kritisk informasjon er holdt utenfor dette prosjektet, da Helsedirektoratet etter vår kunnskap jobber med en ny, nasjonal standard for kritisk informasjon. Legemiddel i bruk anses håndtert gjennom de ulike medikasjonsløsningene som sykehusene har i bruk og er derfor også holdt utenfor denne diskusjonen.
+* Journalen er et kommunikasjonsredskap for helsepersonell som er involvert når pasienten flyttes innover i sykehuset. Det vil derfor være viktigere med samtidighet (at informasjonen er oppdatert) enn at den er fullstendig i henhold til en generell mal. Det bør derfor legges opp til mest mulig direkte registrering (ikke diktering). I situasjoner der det vil være viktig å flytte pasienter raskt innover i sykehuset (rydde mottaket) vil det sikre at minimumsinformasjon om pasienten alltid er tilgjengelig.
+
+Generelt er det valgt en lav grad av strukturering innenfor de enkelte element. Dette reflekterer gruppens diskusjoner om begrunnelse/antatt nytteverdi av strukturering. Likevel har gruppen også anmerket at det vil være ulike behov og muligheter for strukturering innenfor ulike fagområder. Det følger av dette at det i tilrådningen til mange av arketypene vil være rom for å legge til ytterligere detaljering gjennom bruk av såkalt slots. En arketype som har et fritekst beskrivelsesfelt kan således få tilkoblet strukturerte elementer for visse brukere (for eksempel at kardiologer har flere strukturerte elementer under arketypen for Cor) som så kan benyttes til å generere en fritekst. Friteksten er tilgjengelig for alle som leser journal og gir en kontinuitet på tvers av spesialister som registrerer noe om COR, samtidig som spesialisten kan få registrert strukturert iht egne behov for eksempel til kvalitetsregister eller lignende.
+
+== Forslag til ny, strukturert innkomstjournal
+
+=== Innleggelsesårsak (innleggelsesdiagnose/problemstilling)
+Dette feltet inneholder beskrivelse av årsak til innleggelse. Typisk vil det være system- eller problemfokusert, og sjeldnere inneholde endelig diagnose, selv om dette også forekommer. Det er legen som tar imot pasienten som setter denne diagnosen.
+
+Innleggelsesårsaken gjenbrukes i andre sammenhenger, blant annet i oversikter i akuttmottak (elektroniske eller analoge tavler) og på sengepost. 
+Prosjektgruppen mener feltet innleggelsesårsak skal være obligatorisk ved innleggelse av en pasient, og ser at det er flere begreper med delvis overlapping med begrepet. Skjematisk vil pasienten først ha en henvisningsårsak (hentet fra henvisning, diagnosen satt av henvisende lege, ofte angitt med kodeverket ICPC), en innleggelsesårsak (som er mottakslegens årsak til hvorfor pasienten legges inn), tentativ(e) diagnose(r) og til slutt (også etter at pasienten har forlatt sykehuset) en endelig hoveddiagnose og evt bidiagnoser (ICD-10). 
+
+I noen tilfeller vil man kjenne diagnose ved innleggelse (for eksempel re-innleggelser og elektive innleggelser for kirurgiske inngrep).
+Gruppen har diskutert tentative diagnoser opp mot innleggelsesårsak. Det fremheves at tentativ(e) diagnose(r) er noe som settes som en del av oppsummeringen, og angir den/de mest sannsynlige tilstandene for pasientens sykdomstilfelle. Det anses dermed som uhensiktsmessig å blande inn begrepet tentativ diagnose i dette feltet. Det kan være behov for å endre informasjonen om hva pasienten feiler i løpet av en innleggelse også før en endelig diagnose er funnet. Dette er nødvendig for å holde postlister etc oppdatert, og det diskuteres ulike «regler» for hvordan dette skal foregå.
+
+==== Konklusjoner:
+* innleggende leges diagnose/problemstilling må dokumenteres og at denne omtales som henvisningsårsak. Denne finnes i fritekst, men kan inneholde referanser til ICPC-2-terminologien
+* Dersom det er gjennomført triage etter RETTS-modellen vil det foreligge en triage-kontaktårsak som angis av legen som gjør triagering og som kan gjenbrukes av i lister i akuttmottaket når annen informasjon ikke finnes. I RETTS angis denne kontaktårsaken med et fast kodeverk
+* Legen som skriver journal kan definere en innleggelsesårsak i fritekst. Innleggelsesårsak defineres som den årsaken (oftest symptomorientert) som gjør at pasienten søker hjelp og innlegges. Det foreslås at arketypen «reason for encounter» benyttes til dette formålet. Gruppen foretrakk begrepet innleggelsesårsak foran det mer generelle kontaktårsak. Samtidig vil innleggelsesårsak ikke være riktig begrep for en poliklinisk konsultasjon. Derfor anbefales det at innleggelsesårsak og kontaktårsak brukes synonymt i de ulike sammenhengene (innleggelsesårsak når kontakten er en innleggelse og kontaktårsak når kontakten er poliklinisk). Slik differensiering kan skje på template-nivå og påvirker ikke innholdet i arketypen.
+* Innleggelsesårsaken som settes i akuttmottaket kan når som helst erstattes av en ny problemstilling i journalsystemet (men innkomstjournalen inneholder den som var gyldig på det tidspunktet dokumentet ble skrevet.
+* Dersom innleggelsesårsak blir uaktuell eller avkreftet i løpet av et forløp erstattes den i lister av en ny innleggelsesårsak eller, dersom endelig diagnose er kjent, av en diagnose.
+* Endelig diagnose (hoveddiagnoser og bidiagnoser) kan registreres på alle tidspunkt av en innleggelse, også når den er kjent ved mottak (mest aktuelt for elektive innleggelser). Det må lages en ny arketype for å holde diagnoser og prosedyrer som benyttes som utgangspunkt for rapportering til NPR med mer.
+
+Når kontaktårsak skal benyttes for eksempel i postlister etc foreslås følgende prioritet for visning 
+1.	Problem/diagnose (se avsnittet «tidligere sykdommer»)
+2.	Innleggelsesårsak (fritekst)
+3.	Kontaktårsak-triage (Feks RETTS)
+4.	Henvisningsårsak (fra henvisning)
+
+Dokument::
+Innkomstjournal
+
+Arketyper:: <>
+
+Innleggelsesårsak:: Reason for encounter, felt, Reason for contact :
+
+image::reason_for_encounter.jpg[]
+
+ 
+Henvisningsårsak:: Referral Request, felt Reason for request (med ICPC2-koder), Reason description (fritekst)
+
+image::referral_request.jpg[]
+ 
+
+Triage-kontaktårsak:: Triage_priority (må videreutvikles)
+
+image::triage_priority.jpg[]
+ 
+Diagnose (endelig):: Problem/diagnosis, Problem/Diagnosis
+
+[[sosialt]]
+=== Sosialt
+Sivil og yrkesmessig status, eventuell sykmelding eller uførhet, bosituasjon, sosialt nettverk og eventuelt mottak av hjemmetjenester.
+
+Dette punktet har betydelig gjenbrukspotensial, mellom ulike deler av pasientdokumentasjonen, og mellom hver kontakt pasienten har. Det foreslås at denne informasjonen finnes i journalen som såkalt ”persistent” dokument. Ved hver nye kontakt valideres innholdet, og oppdateres ved behov, men man kan unngå at informasjonen gjengis (kopieres) på nytt for hver nye kontakt, og samtidig ha en entydig dokumentasjon, der det ikke er tvil om hva som er aktuell status
+
+Prosjektgruppen mener feltet bør registreres, men ikke være obligatorisk ved mottak. Informasjonen bør dokumenteres i løpet av et opphold.  Utfylling/validering må skje innen oppholdet er slutt, kanskje også helst innen 24 timer pga varslingen til kommunen om behov for tjenester. Feltet er typisk bakgrunnskunnskap om pasienten, og vil kunne valideres ved nye kontakter, og kun endres dersom pasienten har endret status.
+
+Noen opplysninger bør være standardiserte, eks. sivilstatus, yrkesaktiv eller ikke, mottar hjemmetjenester eller ikke. Opplysningene bør kunne hentes automatisk fra demografiske kilder der mulig.
+
+Gruppen diskuterte yrkesanamnese som del av sosial status, men konkluderte med at dette bør være egne felt, evt sjekklister som benyttes der det er indikasjon for dette. 
+Gruppen finner det naturlig at en pasients journal kun inneholder ett dokument som omhandler pasientens sosiale og familiære forhold. En slik kartlegging inngår også i sykepleiedokumentasjon. Det bør dermed i implementasjon av dette dokumentet legges vekt på en harmonisering slik at sykepleiere og leger (og annet helsepersonell) benytter og oppdaterer det samme dokumentet i pasientens journal. 
+
+
+Viktige momenter for registreringen:
+
+Kommunale tjenester:: 
+Det er viktig å registrere hvilke kommunale tjenester en pasient har, spesielt dersom pasienten mottar hjemmesykepleie eller er innlagt på sykehjem. Gruppen mener derfor at dette bør angis spesielt.
+Funksjonsnivå::
+Det er i dag vanlig å angi pasientens funksjonsnivå under overskriften familie/sosialt. Dette kan fortsette som praksis om ønskelig, da i form av fritekst. Gruppen mener imidlertid det bør vurderes som et punkt under Status presens. 
+
+Forskjeller mellom medisinske fagområder::
+Gruppen mener for øvrig at det er forskjeller i registreringsbehov mellom ulike fagområder, for eksempel har Pediatri andre spørsmål i dette dokumentet enn voksenmedisin. Dette kan tilpasses ved å lage egne dokumenter for disse fagområdene, dog med de samme «kjernearketypene» slik at informasjon bringes videre mellom fagområdene.
+
+Barn som pårørende:: 
+Barn som pårørende skal registreres særskilt. Det vil med andre ord innebære at vi ikke bare registrerer om en pasient har barn, men om barna fremdeles er barn, noe som i så fall utløser spesiell oppfølging i noen sammenhenger.
+
+Arketyper
+Extended Personal Demograpics
+
+image::extended_personal_demographics.jpg[]
+ 
+Yrkesaktiv (må utvikles)
+Housing 
+
+image::housing_archetype.jpg[]
+
+Dokument
+Familie/Sosialt
+
+[[hereditet]]
+=== Hereditet
+Under denne overskriften angis sykdommer hos førstegradsslektninger (alder for sykdomsdebut og eventuell død hos foreldre, søsken, barn). Her nevnes også hvis det er opphopning av bestemte sykdommer hos nære slektninger, hvis nære slektninger har en spesiell arvelig tilstand eller hvis noen andre i nær familie har hatt noe som ligner på pasientens aktuelle sykehistorie.
+
+Prosjektgruppen mener at informasjon om hereditet bør kartlegges forbindelse med et sykehusopphold, men at det ikke nødvendigvis kartlegges fullstendig på innleggelsestidspunktet. Det er også naturlig at informasjonen raffineres i løpet av et opphold. For en del kontakter, for eksempel innen kirurgiske fag kan feltet ha mindre interesse. Det foreslås at denne informasjonen finnes i et persistent dokument som det kun finnes ett av i pasientens journal.
+
+Det kan være aktuelt å innføre en viss grad av strukturering, for eksempel angivelse ja/nei av hvorvidt pasienten har arvelig sykdom hos førstegradsslektninger eller opphopning av bestemte sykdommer i familien. Det kan også være aktuelt å dokumentere kilden til opplysningene (pasienten/komparent/helsepersonell).
+
+Gruppen mener at tidsangivelse bør kunne angis med slingringsmonn/usikkerhet og at det bør brukes spesifikke betegnelser som mor/søster/far osv., ikke f.eks. 1. gradsslekning. Dette gjør det lettere å holde listen oppdatert senere.
+
+Gruppen diskuterte nødvendigheten av å strukturere død, dødsårsak osv hos slektninger. Gruppen kommer i diskusjonen frem til at dette er informasjon som er interessant å dokumentere i den enkelte pasients journal, men som ikke anses å ha noen stor verdi som strukturert informasjon (skal ikke spørres på tvers av pasienter eller utløse noen form for beslutningsstøtte).
+
+Dokument:: Hereditet
+Arketyper:: Kommer
+	
+[[tidligere_sykdommer]]
+===	Tidligere sykdommer
+Tidligere sykdommer er en liste over de tilstander pasienten har hatt eller har og bør listes opp med årstall/dato, diagnose, behandling og eventuelle sequele, samt oppfølging. 
+Det foreslås at denne informasjonen finnes i journalen som såkalt ”persistent” dokument, dvs et dokument som pasienten kun har en gyldig utgave av i journalsystemet. Ved hver nye kontakt valideres innholdet, og oppdateres ved behov, men man kan unngå at informasjonen gjengis (kopieres) på nytt for hver nye kontakt, og samtidig ha en entydig dokumentasjon, der det ikke er tvil om hva som pasientens tidligere sykdommer.
+
+Gruppen mener at informasjonen dette feltet skal være obligatorisk og at det skal kunne registreres både som fritekst og med knytning til aktuelle kodeverk (ICD-10 for diagnoser og NCSP/NCMP for prosedyrer). Diskusjonen i gruppen avdekker en forskjell i behov knyttet til dette avsnittet i journalen. Forenklet er kirurger hovedsakelig interessert i komorbiditet, tilstander som man skal ta høyde for ved forestående kirurgi, mens man for medisinske fag er ute etter en mest mulig uttømmende liste fordi man ikke nødvendigvis vet hva som er relevant på det tidspunktet informasjonen fanges. Gruppen diskuterte muligheter for vekting og sortering av informasjonen, samt visning (komprimert vs detaljert visning). Gruppen ønsket både å kunne sortere informasjonen basert på organsystem og kronologi. Pasienten ble også fremhevet som aktør i utarbeidelse av listen over tidligere sykdommer, og det ble diskutert om det skulle finnes mulighet for å dokumentere at pasienten har validert listen. Det ble også fremhevet funksjonelle ønsker knyttet til muligheten for å navigere til dokumenter fra listen over tidligere sykdommer.
+
+==== Konklusjon:
+Tidligere sykdommer bygges på arketypen (composition) «Problem list». Denne har støtte for å registrere klinisk problemstilling/diagnose og prosedyrer. Problemstilling kan oppgis som fritekst med kan også knyttes til kodeverk som ICD10/NCSP etc.
+
+Bruker kan dermed enkelt opprette en liste i fritekst, på samme måte som i dag, men der relevant også koble ICD-10 koder og prosedyrekoder til hver rad i listen.
+
+Dersom ICD-kode eller prosedyrekoder er oppgitt, vil EPJ-system kunne benytte dette som nøkkel til å presentere dokumenter med relasjon til koden (for eksempel epikriser fra tidligere opphold) slik at bruker kan «drille ned» i mer informasjon.
+
+Dokument:: 
+Tidligere sykdommer og prosedyrer (eng. problem list)
+
+image::problem_list.jpg[]
+ 
+Arketyper::
+Problem/Diagnosis
+ 
+image::problem_diagnosis.jpg[]
+
+Procedures::
+
+Exclusion statements
+
+Absent information
+
+=== Aktuelt
+I dette avsnittet redegjøres det i detalj for pasientens aktuelle symptomer og eventuelle undersøkelser og behandling gitt av innleggende instans.
+Gruppen mener dette feltet være et tekstfelt som fylles ut slik det gjøres i dag (fritekst). Det kan tenkes at enkelte fagområder vil ha behov for spesifikke spørsmål. I arketypen som benyttes er det tatt høyde for dette ved at spesifikke spørsmål (knyttet til fagområde eller symptom) kan legges inn som CLUSTER i arketypen. 
+
+Dokument::
+Innkomstjournal
+
+Arketype::
+Story/History
+
+image::story_history.jpg[]
+ 
+
+===  Naturlige funksjoner: 
+Dette avsnittet kartlegger naturlige funksjoner knyttet til avføring, vannlating, matlyst/vekt, søvn, menstruasjonsforhold og seksualfunksjon har vært normalt og uendret i tiden forut for aktuelle innleggelse. Seksualfunksjon, matlyst/vekt, søvn og menstruasjonsforhold er situasjonsavhengige, mens vannlatning og avføring anses som naturlige ved alle innleggelser. 
+
+Det finnes ikke arketyper for naturlige funksjoner i OpenEHR-biblioteket. Gruppen mener at følgende er aktuelt å strukturere:
+
+For hvert enkelt underpunkt angis: Normalt/Ikke normalt (for pasienten)/Ikke spurt. Dersom brukeren velger «ikke normalt» kan en beskrivelse angis som fritekst.
+
+For menstruasjonsforhold kan det i tillegg (når relevant) angis dato for start av siste menstruasjon og om menstruasjon er regelmessig. 
+
+Dette temaet kartlegges også som en del av sykepleiedokumentasjon, og det vil være nærliggende å se på om en slik kartlegging kan være delt/gjenbrukt. I Norge benyttes i dag hovedsakelig Nanda-kodeverket til dette. 
+
+Arketyper::
+Menstrual cycle
+
+Nye arketyper:: Sexual function, Menstruation, Bowel function, sleep, nutrition, Micturition
+
+[[stimulantia]]
+===	Stimulantia
+Sigaretter (eller andre nikotinholdige preparater som snus), alkohol, narkotika eller vanedannende legemidler, samt legemidler med misbrukspotensiale (f.eks. anabole steroider).
+Stimulantiabruk er viktige helseindikatorer, og etterspørres i flere av helseregistrene som det skal rapporteres til. En omforent og gjenbrukbar registrering av dette vil dermed kunne forenkle slik rapportering og samtidig gjøre muligheten for å sammenstille klinisk informasjon til forskning langt større. 
+
+Dokument::
+Substance_use_list? Ny composition for å håndtere dette?
+Arketyper::
+Substance_use_summary,Substance_use_summary_alcohol,Substance_use_summary_tobacco
+
+===	Status presens 
+Typisk begynner en status presens med 
+”Pasienten er en XX år gammel mann/kvinne som ..." og beskriver deretter mobiliseringsevne, bevissthetsnivå, allmenntilstand, ernæringstilstand, hydreringstilstand, samt om det er plager i øyeblikket, tørr og varm hud, ev. utslett, cyanose, ikterus), generell lymfeknuteforstørrelse eller generelle ødemer.
+
+I tillegg gjengis BT, puls, respirasjon, temp, høyde, vekt
+Denne informasjonen egner seg godt for gjenbruk. De vitalparametrene er dessuten registrert av sykepleier allerede før anamneseopptaket i normale tilfeller, og bør kunne gjenbrukes. Datasystemer kjenner til pasientens kjønn og alder og bevissthetsnivå er i de fleste akuttmottak nå en del av den standardiserte vurderingen som gjøres ved triagering. Gjenbruk av denne informasjonen vil redusere dokumentasjonsarbeidet til legen.
+
+=== Klinisk undersøkelse
+Den kliniske undersøkelsen ved innkomst er også nokså standardisert med en formalistisk helkroppsundersøkelse, samt en nærmere undersøkelse relevant til aktuell problemstilling. Det bør vurderes om den formaliserte undersøkelsen bør struktureres, evt på hvilket nivå og med hvilken antatt gevinst. Under er gjengitt en standard dokumentasjon for en klinisk undersøkelse ved innkomst:
+
+Pupiller:: Pupillenes størrelse, ev. sideforskjell, samt reaksjon på lys 
+Cavum oris:: Bleke, rene, fuktige slimhinner? 
+Collum:: Venestuvning, palpable lymfeknuter, struma eller bilyder over karotidene?
+Thorax:: Normal form og bevegelighet? 
+Cor:: Vurder om det er rene toner (eller f.eks. spaltede), om hjerteaksjonen er regelmessig (eller uregelmessig), samt om man kan høre bilyder over hjertet. Angi om bilyden høres i systolen eller diastolen, hvor man finner punctum maximum, samt samt graden (gjerne I-IV). Auskultasjon gjøres vanligvis på fire ulike steder, henholdsvis aortastedet, pulmonalstedet, triskupidalstedet og mitralstedet, samt på ryggen hos spedbarn/barn. Hvis man hører en bilyd, lytter man også etter utstråling mot aksillen og mot halskar.
+
+Pulm:: Vurder respirasjonslyden og angi eventuelle fremmedlyder. Normale lungegrenser?
+
+(Columna:: Normale kurvaturer og normal ryggbevegelighet? Ingen palpasjonssmerter?)
+ 
+Abdomen:: Normale respirasjonsbevegelser, normalt konfigurert, bløt og uøm ved palpasjon, ingen hepatosplenomegali eller palpable oppfylninger, ikke bankeømme nyrelosjer, symmetriske lyskepulser og intet brokk?
+
+Rektaleksplorasjon:: Ingen perianale forandringer, normal sfinktertonus, ingen tumores i ampullen? Menn: prostata normalstor med bevart midtfure, velavgrenset, jevn overflate, fast og elastisk konsistens, ikke øm? Kvinner: Uterus palpabel og uøm?
+
+(Genitalia externa (menn):: Begge testikler i pungen, uømme, normalstore og jevn overflate?)
+
+(GU:: Vulva, vagina, portio upåfallende? Frie adnexa? Ikke ruggeøm uterus? Utflod/blod? Lukt?)
+ 
+Ekstremiteter:: Ingen ankelødemer, god puls i a. dorsalis pedis bilateralt? 
+
+Orienterende nevrologi:: Patellar- og achillesreflekser, samt plantarreflekser. Koordinerte bevegelser av armer og ben, med god kraft, og ingen sensibilitetsutfall? Ingen påfallende skjevhet.
+
+(Status localis:: funn i andre lokalisasjoner enn nevnt ovenfor, f.eks. ved skader når relevant for problemstillingen)
+
+Gruppen har etter diskusjon og noe arbeid med prototyper (se illustrasjon under) konkludert med at klinisk undersøkelse struktureres med ett felt (dvs en arketype) per organområde. Innholdet i selve undersøkelsen er i utgangspunktet fri tekst, man ser det ikke hensiktsmessig å lage et skjema for i detalj  å beskrive auskultasjonsfunn, funn ved palapasjon i abdomen etc. Samtidig ønsker man å kunne skille det upåfallende fra det påfallende. Det er derfor enighet om en modell der kliniker angir om status er normal/forventet. I så fall kan det benyttes en standardtekst som autogenereres og dermed sparer kliniker for arbeid. Det er et viktig moment at denne standardteksten vises for kliniker, slik at det faktisk er samsvar mellom dokumenterte funn og de undersøkelsene som kliniker har gjort. I fall kliniker påviser et patologisk funn, for eksempel en bilyd, angis det som funn/unormalt, og funnet, sammen med resten av beskrivelsen av organundersøkelsen beskrives også som fritekst.
+I tillegg til dette mener gruppen at det må tas høyde for at enkelte grupper vil ønske å dokumentere sine funn strukturert. Dette løses ved at en SLOT legges inn i disse arketypene. Denne SLOT’en kan så holde en ytterligere struktur for å angi funn ved undersøkelse, for de brukerne som har maler der denne er inkludert. Funksjonaliteten i EPJsystemet kan så generere en tekst basert på strukturert registrering i tekstfeltet som alle brukere benytter. Slik kan alle undersøkelser, for eksempel av hjertet, leses som en kontinuitet, selv om det for enkelte av undersøkelsene ligger mer strukturerte data under som er av interesse for enkelte brukere.
+
+=== Resymé, vurdering og tiltak 
+Dette avsnittet er en ”readers digest” av innkomstjournalen. Den oppsummerer bakgrunn, viktige funn og inneholder dessuten en oppsummering av umiddelbar plan for pasienten. Et eksempel er gjengitt under:
+
+Eksempel: 36 år gammel mann, siste 14 dager sykmeldt av fastlegen pga ryggplager, men tidligere vesentlig frisk. Innkommer etter et døgns sykehistorie med diffuse magesmerter, økende intensitet og etter hvert smertevandring til høyre fossa, innlagt pga mistanke om appendisitt. Ved undersøkelse er han trykk- og slippøm over McBurneys punkt, øm ved rektaleksplorasjon mot høyre, samt CRP 56. Tentativ diagnose: appendisitt. Har spist idag kl 15, holdes nå fastende og meldes til operasjon.
+
+Prosjektgruppen mener at gjentakelse av informasjon som allerede er oppgitt lengre oppe i journalen bør unngås, og at behovet for et eget Resymé er et utslag av en for omfangsrik og lite fokusert journal. Det følger av dette at kun vurdering og tiltak står igjen. Dette for å unngå gjentakelser fra aktuelt og andre deler av innkomstjournalen. Diskusjonen i gruppen har likevel tydet på at det vil være et flytende skille mellom vurdering og begrunnelse for tiltak og resymering av journal. Dette mener gruppen at man vil kunne leve med.
+
+Vurdering og tiltak foreslås som et fritekstfelt, men det vil være fornuftig å se på funksjonalitet der beskrivelse av tiltak i noen grad kan genereres fra bestillinger som er utført. Det er også sannsynlig at et fremtidig system som bedre understøtter kliniske prosesser og visualisering av disse kan gjøre behovet for et fyldig tiltakskapittel noe mindre.
+
+== Oversikt over avsnitt i innkomstjournal og knytning til nye dokumenter i pasientens journal
+|====
+|Avsnittsnavn|Dokument|Persistent dokument|Evt kilde
+|Henvisningsårsak|Innkomstjournal|Nei|Hentes fra PAS
+|Triage Kontaktårsak|Innkomstjournal|Nei|Hentes fra Triage-Skjema
+|Kontaktårsak|Innkomstjournal|Nei|
+|Diagnose|Innkomstjournal|Nei|
+|Sosialt|Sosialt|Ja|Delt med spl dok?
+|Hereditet|Hereditet|Ja|
+|Tidligere sykdommer|Tidligere sykdommer|Ja|
+|Aktuelt|Innkomstjournal|Nei|
+|Naturlige funksjoner|Innkomstjournal|Nei|Delt med spl dok?
+|Medikamenter|Legemidler i bruk|Ja|
+|Stimulantia|Stimulantia|Ja|
+|Kritisk informasjon|Kritisk informasjon|Ja|
+|Status presens|Innkomstjournal|Nei|
+|Generelt|Innkomstjournal|Nei|
+|Pupiller|Innkomstjournal|Nei|
+|Cavum oris|Innkomstjournal|Nei|
+|Collum|Innkomstjournal|Nei|
+|Columna|Innkomstjournal|Nei|
+|Thorax|Innkomstjournal|Nei|
+|Cor|Innkomstjournal|Nei|
+|Pulm|Innkomstjournal|Nei|
+|Abdomen|Innkomstjournal|Nei|
+|Genitalia eksterna|Innkomstjournal|Nei|
+|Rektal eksplorasjon|Innkomstjournal|Nei|
+|Underekstremiteter|Innkomstjournal|Nei|
+|Orienterende nevrologi|Innkomstjournal|Nei|
+|Vurdering|Innkomstjournal|Nei|
+|Tiltak|Innkomstjournal|Nei|Hente fra behandlingsplan
+|====			
+
+
+			
+
+=== Spesialiseringer av innkomstjournalen
+Målsetningen i dette prosjektet er primært å standardisere de delene av innkomstjournalen som antas å være felles. På dette grunnlaget kan spesialiserte innkomstjournaler, tilpasset pediatri, psykiatri, geriatri, kirurgi, medisin, gyn/obst, utvikles. Det vil være et poeng, for gjenbrukbarheten, at en kirurgisk innkomstjournal kan gjenbruke relevante elementer fra en tidligere medisinsk innkomstjournal.
+
+
+=== Oversikt over arketyper i innkomstjournalen
+[cols="3,3,^1,^1,^1", options="header"]
+|====
+|Navn på begrep	|Navn på arketype|Må utvikles|	Må endres	|Må oversettes
+|Kontaktårsak|Reason for encounter|||X
+|Henvisningsårsak|Referral Request, Reason for Request|||X
+|Triage Kontaktårsak|Triage Priority||X|X
+|Diagnose|Problem/diagnosis|||X
+|Sivilstatus|Extended personal demographics|||X
+|Yrkesaktiv||X||
+|Boforhold|Housing|||X
+|Hereditet||X||
+|Tidligere sykdommer|Problem list|||X
+|Tidligere sykdommer|Problem/diagnosis|||X
+|Tidligere sykdommer|Procedures|||X
+|Tidligere sykdommer|Exclusion problem|||X
+|Aktuelt|Story/History|||X
+|Naturlige funksjoner||||
+|Legemidler i bruk|Medication order|X||
+|Legemidler i bruk|Exclusion medication|||X
+|Legemidler i bruk|Absent information|||X
+|Stimulantia|Substance_use_summary||X|X
+|Stimulantia|Substance_use_summary_tobacco|||X
+|Stimulantia|Substance_use_summary_alcohol|||X
+|Kritisk informasjon||X||
+|US – generelt||X||
+|US - pupiller||X||
+|US – cavum oris||X||
+|US – collum||X||
+|US – columna||X||
+|US – thorax||X||
+|US – cor||X||
+|US – pulm||X||
+|US – abdomen||X||
+|US – genitalia||X||
+|US – rektalekspl||X||
+|US – underekstr||X||
+|US – orienterende nevrologi||X||
+|Vurdering||X||
+|==== 
+
+== Oppsummering
+Prosjektgruppen sammensatt av ressurser fra klinikk og forvaltning i Helse Nord, Helse Vest og Helse Sør-Øst har gjennom tre samlinger i løpet av våren 2014 gått gjennom dokumentet Innkomstjournal med tanke på å foreslå en struktur som kan benyttes ved overgang til strukturert journalføring. Det resulterende forslaget innebærer en oppsplitting av innkomstjournalen i 7 nye dokumenttyper. To av disse, kritisk informasjon og legemidler i bruk er holdt utenfor dette prosjektet fordi det pågår egne prosesser for disse. De fem resterende dokumenttypene er 
+
+* Innkomstjournal
+* Sosialt
+* Tidligere sykdommer
+* Hereditet
+* Stimulantia
+
+Innkomstjournal er et episodisk dokument (nytt oppstår ved hver nye kontakt), mens de fire siste er persistente, dvs pasienten har kun én gyldig versjon til enhver tid. Disse kan valideres/redigeres ved nye kontakter, og på den måten forenkle legens registreringsarbeid og sikre konsistens i journalen.
+
+Arbeidet i prosjektgruppen har vært godt, med gode diskusjoner preget av en bred klinisk sammensetning frå indremedisin, pediatri, kirurgi og psykiatri. 
+Omfanget av prosjektet ble redusert, da arbeidet med innkomstjournal krevde tid til grundige diskusjoner. Det er derfor tilrådningen til gruppen at arbeidet videreføres høsten 2014 med utarbeidelse av standard dokumenttyper for strukturert epikrise og poliklinisk epikrise.
+Rapporten oversendes Nasjonal IKT sammen med de foreslåtte arketypene som er ferdige eller klare til oversetting. Nye arketyper vil måtte utvikles. Det er foreslått at DIPS ASA tar ansvar for å foreslå disse arketypene og at den videre utvikling og godkjennelse av disse håndteres av Nasjonal IKT.

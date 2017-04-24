@@ -1,0 +1,28 @@
+//= Amendment Record
+
+= Endringslogg
+
+[[dips-document-history]]
+[discrete]
+#### Historikk
+[options="header",frame="topbot",cols="1,6,2,2"]
+|===
+|Issue|Details|Raiser|Completed
+4+^h|*R E L E A S E{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}1.0.0-RC1*
+
+|Initiell innsjekk
+|La inn grunnstrukturen i dokumentet
+|Bjørn Næss
+|24.04.2017
+
+
+|=== 
+
+[[dips-approval-history]]
+[discrete]
+#### Godkjenning
+[options="header",frame="topbot",cols="15,10,20,55"]
+|===
+|Dato |Versjon |Godkjent av |Stilling
+|2017.05.xx |1.0 | |
+|===

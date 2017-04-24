@@ -1,0 +1,45 @@
+// Dette er DIPS sin dokumentmal for Asciidoc. Ta kopi og bruk malen som utgangspunkt for nye dokumenter.
+
+:dips-template-url: .
+include::{dips-template-url}\styles\dips-core-styles.adoc[]
+include::{dips-template-url}\styles\dips-style-no.adoc[]
+
+:product: Arena Innkomstjournal
+:documenttype: Spesifikasjon
+
+ifdef::backend-pdf[= {product}: {documenttype}]
+ifdef::backend-html5[= {product} +++<BR>+++{documenttype}]
+DIPS ASA
+:revnumber: Versjon 1.0.0-SNAPSHOT
+:revdate: 24.04.2017
+:revremark: Foreløpig
+
+ifdef::backend-pdf[]
+include::{dips-template-url}\content\dips-copyright-notice.adoc[]
+endif::[]
+
+<<<
+
+:sectnums!:
+include::master-00-amendment_record.adoc[leveloffset=+1]
+
+
+
+ifeval::["{revremark}"=="Foreløpig"]
+include::{dips-template-url}\content\dips-prerelease-notice-no.adoc[]
+endif::[]
+
+<<<
+
+:sectanchors:
+:sectnums:
+[[CONTENT]]
+
+include::innkomstjournal_rapport.adoc[leveloffset=1]
+
+include::tidligere_sykdommer.adoc[leveloffset=+1]
+
+ifdef::backend-html5[]
+<<<
+include::{dips-template-url}\content\dips-copyright-notice.adoc[]
+endif::[]

@@ -1,0 +1,31 @@
+= Tidligere sykdommer 
+
+== Bakgrunn 
+
+=== Helse Nord Krav F160
+Det skal finnes en type EPJ-dokument som kan benyttes for å registrere opplysninger om tidligere sykdom som skal kunne inneholde følgende opplysninger:
+
+* Diagnosekode i henhold til ICD-10.
+* Diagnose (fritekst, benyttes primært når diagnosen er usikker, for eksempel basert på utsagn fra pasient eller pårørende).
+* Verifikasjonsgrad, kode valgt fra meny (”Lite sannsynlig”, ”Muligens”, ”Stor sannsynlighet”, ”Verifisert”).
+* Dato diagnosen ble stilt. Datofelt samt mulighet for tekstlig angivelse der datoen er usikker/ukjent.
+* Kilde for diagnosen. Referanse til enhet som har stilt diagnosen (foretak, avdeling) og med mulighet for fritekst for å angi at opplysningene er usikre for eksempel fordi kilden er pasient/pårørende.
+* Lenker til dokumenter (se krav F874) som beskriver diagnosen ytterligere, for eksempel en epikrise, et innkomstnotat eller et innskannet brev fra pasienten.
+
+[options="header", cols="1,10"]
+|====
+|Krav | Beskrivelse 
+|F1061
+|Innholdet i dokumentet Tidligere sykdommer skal kunne genereres automatisk ved at ICD10-diagnoser i epikrisen merkes med at de skal plasseres i dette dokumentet.
+
+|F1062|
+Det skal være mulig å legge inn opplysninger i Tidligere sykdommer manuelt.
+|F1063|
+Oversikt over tidligere sykdommer skal kunne presenteres kronologisk og omvendt kronologisk.
+|F1064|
+Oversikt over tidligere sykdommer skal kunne presenteres etter avdeling og kronologisk/omvendt kronologisk.
+|F1065|
+Oversikt over tidligere sykdommer skal kunne presenteres etter avdeling og fallende verifikasjonsgrad.
+|F1066|
+Oversikt over tidligere sykdommer skal kunne presenteres etter ICD-10-diagnoser. 
+|====

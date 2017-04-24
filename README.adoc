@@ -1,0 +1,4 @@
+= Innkomstjournal 
+
+== Bakgrunn
+Dette repoet samler innformasjon om innkomstjournal. Formålet er å samle bakgrunnsmateriale for design av DIPS Arena Innkomstjournal. 

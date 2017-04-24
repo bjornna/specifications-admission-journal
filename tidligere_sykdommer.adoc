@@ -34,6 +34,7 @@ CAUTION: Hva skiller _tidligere sykdommer_ fra _tidligere diagnoser_ ?
 
 === Hvordan holde _tidligere sykdommer_ oppdatert ? 
 
+[[bna_anbefaling_tidligere_sykdommer]]
 == Bjørns anbefaling om tidligere sykdommer 
 
 . Tidligere sykdommer er et sammensatt dokument; dvs. et folderdokument og i DIPS Arena betyr det et dokument med format 21. 
@@ -42,10 +43,10 @@ CAUTION: Hva skiller _tidligere sykdommer_ fra _tidligere diagnoser_ ?
 
 På den måten gjør vi det mulig å : 
 
-a. Oppdatere sammenstillingen automatisk gjennom kode; f.eks. et script som henter ut problem/diagnose fra eventbaserte dokumenter og referer det inn i det persistente sammensatte dokumentet. 
-a. Tidligere oppføringer til _tidligere sykdommer_ får stå med den orginale forfatteren. Det vil si at det fremkommer tydelig når oppføringen kommer inn i historikken og når det ble opprettet. 
-a. Rettinger på gamle oppføringer blir konsekvent - siden det da kun handler om å lage ny (rette) versjon av gammel oppføring. 
-a. Dersom gamle oppføringer er feilaktige og man ikke lenger vil ha de med i lista så kan man a) slette referanse og b) legge til en ny referanse. Da rydder man opp uten å rette/korrigere tidligere oppføringer. 
+. Oppdatere sammenstillingen automatisk gjennom kode; f.eks. et script som henter ut problem/diagnose fra eventbaserte dokumenter og referer det inn i det persistente sammensatte dokumentet. 
+. Tidligere oppføringer til _tidligere sykdommer_ får stå med den orginale forfatteren. Det vil si at det fremkommer tydelig når oppføringen kommer inn i historikken og når det ble opprettet. 
+. Rettinger på gamle oppføringer blir konsekvent - siden det da kun handler om å lage ny (rette) versjon av gammel oppføring. 
+. Dersom gamle oppføringer er feilaktige og man ikke lenger vil ha de med i lista så kan man a) slette referanse og b) legge til en ny referanse. Da rydder man opp uten å rette/korrigere tidligere oppføringer. 
 
 
 

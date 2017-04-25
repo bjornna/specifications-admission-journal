@@ -6,15 +6,12 @@
     "creator": "bna",
     "defaultLanguage": "nb",
     "schemaVersion": "1.0",
-    "resources": [
-        {
-            "name": "folder-description",
-            "mimetype": "application/json",
-            "type": "source"
-        }
-    ],
+    "resources": [{
+        "name": "folder-description",
+        "mimetype": "application/json",
+        "type": "source"
+    }],
     "resourceFileset": {
         "folder-description": "innkomstjournal_1.0.0/folder_description.json"
-        
     }
 }

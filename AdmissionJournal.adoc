@@ -39,6 +39,8 @@ include::innkomstjournal_rapport.adoc[leveloffset=1]
 
 include::tidligere_sykdommer.adoc[leveloffset=+1]
 
+include::folder_templates.adoc[leveloffset=+1]
+
 ifdef::backend-html5[]
 <<<
 include::{dips-template-url}\content\dips-copyright-notice.adoc[]

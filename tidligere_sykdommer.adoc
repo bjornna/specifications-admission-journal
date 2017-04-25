@@ -49,9 +49,6 @@ På den måten gjør vi det mulig å :
 . Dersom gamle oppføringer er feilaktige og man ikke lenger vil ha de med i lista så kan man a) slette referanse og b) legge til en ny referanse. Da rydder man opp uten å rette/korrigere tidligere oppføringer. 
 
 
-
-
-
 == Anbefaling fra prosjektgrupper
 Tidligere sykdommer bygges på arketypen (composition) «Problem list». Denne har støtte for å registrere klinisk problemstilling/diagnose og prosedyrer. Problemstilling kan oppgis som fritekst med kan også knyttes til kodeverk som ICD10/NCSP etc.
 

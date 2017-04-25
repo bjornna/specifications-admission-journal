@@ -1,0 +1,36 @@
+= Foldertemplates 
+
+== Bakgrunn 
+I det følgende vises malene for sammmensatte dokumenter for hhv. innkomstjournal og problemliste (tidligere sykdommer). 
+
+[[foldertemplate_innkomstjournal]]
+== FolderTemplate for Innomstjournal
+
+.Manifest for innkomstjournal
+[source]
+----
+include::resources/folder_template/innkomstjournal_1.0.0/manifest.json[]
+----
+
+.Strukturen for innkomstjournal
+[source]
+----
+include::resources/folder_template/innkomstjournal_1.0.0/innkomstjournal_1.0.0/folder_description.json[]
+----
+
+
+[[foldertemplate_problemlist]]
+== FolderTemplate for problemlist
+
+.Manifest for problemliste
+[source]
+----
+include::resources/folder_template/problemlist_1.0.0/manifest.json[]
+----
+
+.Strukturen for problemliste
+[source]
+----
+include::resources/folder_template/problemlist_1.0.0/problemlist_1.0.0/folder_description.json[]
+----
+

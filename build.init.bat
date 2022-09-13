@@ -1,16 +1,16 @@
 @echo off
-set fontdir=\\ADMFILES\dips\KIDS\Maler\Asciidoc\fonts
-set imagesdir=\\ADMFILES\dips\KIDS\Maler\Asciidoc\images
-set themesdir=\\ADMFILES\dips\KIDS\Maler\Asciidoc\styles
-set stylecssrc=\\ADMFILES\dips\KIDS\Maler\Asciidoc\styles\dips.css
-set coderaysrc=\\ADMFILES\dips\KIDS\Maler\Asciidoc\styles\coderay-asciidoctor.css
+set fontdir=\\admfiles\dips\KIDS\Maler\Asciidoc\fonts
+set imagesdir=\\admfiles\dips\KIDS\Maler\Asciidoc\images
+set themesdir=\\admfiles\dips\KIDS\Maler\Asciidoc\styles
+set stylecssrc=\\admfiles\dips\KIDS\Maler\Asciidoc\styles\dips.css
+set coderaysrc=\\admfiles\dips\KIDS\Maler\Asciidoc\styles\coderay-asciidoctor.css
 set stylecss=dips.css
-set configdir=\\ADMFILES\DIPS\KIDS\Maler\Asciidoc
-set contentdir=\\ADMFILES\DIPS\KIDS\Maler\Asciidoc\content
+set configdir=\\admfiles\DIPS\KIDS\Maler\Asciidoc
+set contentdir=\\admfiles\DIPS\KIDS\Maler\Asciidoc\content
 
-set stylesrc=\\ADMFILES\DIPS\KIDS\Maler\Asciidoc\styles
+set stylesrc=\\admfiles\DIPS\KIDS\Maler\Asciidoc\styles
 set themesname=dips-pdf-styling
-set fasrc=\\ADMFILES\dips\kids\Maler\Asciidoc\font-awesome-4.4.0\
+set fasrc=\\admfiles\dips\kids\Maler\Asciidoc\font-awesome-4.4.0\
 
 echo Kopierer css og font-awesome
 xcopy /s /i /y %fasrc%css css
